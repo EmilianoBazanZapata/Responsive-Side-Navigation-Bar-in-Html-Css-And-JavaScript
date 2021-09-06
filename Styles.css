@@ -65,7 +65,29 @@ body
     line-height: 50px;
     
 }
-
+.sidebar ul li input
+{
+    position: absolute;
+    height: 100%;
+    width: 75%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    outline: none;
+    border:none;
+    background: #1d1b31;
+    font-size: 18px;
+    padding-left: 50px;
+    color: #fff;
+}
+.sidebar ul li .bx-search
+{
+    position: absolute;
+    z-index: 99;
+    color: #fff;
+    top: 3px;
+    font-size: 22px;
+}
 .sidebar ul li a
 {
     color: #fff;
@@ -81,7 +103,7 @@ body
     color: #11101d;
     background: #fff;
 }
-.sidebar ul li a i
+.sidebar ul li i
 {
     height: 50%;
     min-width: 50px;
