@@ -111,3 +111,59 @@ body
     line-height: 50px;
     text-align: center;
 }
+
+.sidebar .profile-content
+{
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.sidebar .profile-content .profle
+{
+    position: relative;
+    padding: 10px 6px;
+    height: 60px;
+    background: #1d1b31;
+}
+
+.sidebar .profile-content .profle .profile-details
+{
+    display: flex;
+    align-items: center;
+
+}
+.sidebar .profile-content .profle .profile-details img
+{
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.sidebar  .profile-details .name-job
+{
+    margin-left: 10px;
+}
+.sidebar  .profile-details .name
+{
+    font-size: 15px;
+    font-weight: 400;
+}
+.sidebar  .profile-details .job
+{
+    font-size: 12px;
+}
+
+.sidebar #log-out
+{
+    position: absolute;
+    left: 80%;
+    bottom: 20px;
+    transition: translateX(-50%);
+    min-width: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    border-radius: 12px;
+}
