@@ -1,107 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Box Icons-->
-    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-    <!--Styles-->
-    <link rel="stylesheet" href="Styles.css">
-    <title>Document</title>
-</head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Box Icons-->
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <!--Styles-->
+        <link rel="stylesheet" href="Styles.css">
+        <title>Document</title>
+    </head>
+
 <body>
     <div class="sidebar">
-        <div class="logo-content">
-            <div class="logo">
-                <i class='bx bxl-c-plus-plus'></i>
-                <div class="logo-name">CodingLab</div>
-            </div>
+        <div class="logo-details">
+            <i class='bx bxl-c-plus-plus icon'></i>
+            <div class="logo-name">CodingLab</div>
             <i class='bx bx-menu' id="btn"></i>
         </div>
         <ul class="nav-list">
             <li>
-                <a>
-                    <i class='bx bx-search'></i>
-                    <input type="text" placeholder="Search">
-                </a>
+                <i class='bx bx-search'></i>
+                <input type="text" placeholder="Search...">
                 <span class="tooltip">Search</span>
             </li>
             <li>
-                <a>
+                <a href="#">
                     <i class='bx bx-grid-alt'></i>
-                    <span class="link-name">DashBoard</span>
+                    <span class="links-name">Dashboard</span>
                 </a>
-                <span class="tooltip">DashBoard</span>
+                <span class="tooltip">Dashboard</span>
             </li>
             <li>
-                <a>
-                    <i class='bx bx-user' ></i>
-                    <span class="link-name">User</span>
+                <a href="#">
+                    <i class='bx bx-user'></i>
+                    <span class="links-name">User</span>
                 </a>
                 <span class="tooltip">User</span>
             </li>
             <li>
-                <a>
-                    <i class='bx bx-chat' ></i>
-                    <span class="link-name">Messages</span>
+                <a href="#">
+                    <i class='bx bx-chat'></i>
+                    <span class="links-name">Messages</span>
                 </a>
                 <span class="tooltip">Messages</span>
             </li>
             <li>
-                <a>
-                    <i class='bx bx-pie-chart-alt-2' ></i>
-                    <span class="link-name">Analytics</span>
+                <a href="#">
+                    <i class='bx bx-pie-chart-alt-2'></i>
+                    <span class="links-name">Analytics</span>
                 </a>
                 <span class="tooltip">Analytics</span>
             </li>
             <li>
-                <a>
+                <a href="#">
                     <i class='bx bx-folder'></i>
-                    <span class="link-name">File Manager</span>
+                    <span class="links-name">File Manager</span>
                 </a>
-                <span class="tooltip">File Manager</span>
+                <span class="tooltip">Files</span>
             </li>
             <li>
-                <a>
-                    <i class='bx bx-cart'></i>
-                    <span class="link-name">Order</span>
+                <a href="#">
+                    <i class='bx bx-cart-alt'></i>
+                    <span class="links-name">Order</span>
                 </a>
                 <span class="tooltip">Order</span>
             </li>
             <li>
-                <a>
+                <a href="#">
                     <i class='bx bx-heart'></i>
-                    <span class="link-name">Saved</span>
+                    <span class="links-name">Saved</span>
                 </a>
                 <span class="tooltip">Saved</span>
             </li>
             <li>
-                <a>
+                <a href="#">
                     <i class='bx bx-cog'></i>
-                    <span class="link-name">Settings</span>
+                    <span class="links-name">Setting</span>
                 </a>
-                <span class="tooltip">Settings</span>
+                <span class="tooltip">Setting</span>
             </li>
-            <div class="profile-content">
-                <div class="profle">
-                    <div class="profile-details">
-                        <img src="Img/Anonymous_emblem.png" alt="">
-                        <div class="name-job">
-                            <div class="name">
-                                Emiliano
-                            </div>
-                            <div class="job">Web Designer</div>
-                        </div>
+            <li class="profile">
+                <div class="profile-details">
+                    <img src="Img/Anonymous_emblem.png">
+                    <div class="name-job">
+                        <div class="name">Emiliano</div>
+                        <div class="job">Web designer</div>
                     </div>
-                    <i class="bx bx-log-out" id="log-out"></i>
                 </div>
-            </div>
+                <i class='bx bx-log-out' id="log-out"></i>
+            </li>
         </ul>
     </div>
-    <div class="home-content">
+    <section class="home-section">
         <div class="text">Home Content</div>
-    </div>
+    </section>
     <script src="Script.js"></script>
 </body>
+
 </html>
